@@ -1,0 +1,86 @@
+.navbar {
+    margin-bottom: 0;
+    background-color: #1abc9c;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1abc9c !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+    .bg-1 { 
+         background-color: #1abc9c; /* Green */
+          color: #ffffff;
+          margin-top: 50px
+          
+      }
+      .bg-2 { 
+      background-color: rgba(26, 25, 25, 0.5); /* Dark Blue */
+      color: #ffffff;
+      padding: 50px 0px 50px
+  }
+
+.logo-small {
+    color: #1abc9c;
+    font-size: 15px;
+}
+.bg-3 { 
+      background-color: #ffffff; /* Dark Blue */
+      color: #1abc9c;
+      padding: 50px 0px 50px
+  }
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+    color: #1abc9c;
+    padding: 50px 50px 30px
+}
+.logo {
+    font-size: 200px;
+}
+.bg-white {
+    background-color: #ffffff;
+    color: #1abc9c;
+    padding: 50px 50px 30px
+}
+.bg-green {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 50px 50px 30px
+}
+.icon-white {
+    color:#ffffff !important;
+    font-size: 28px
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
